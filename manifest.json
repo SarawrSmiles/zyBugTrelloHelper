@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name":"zyTrelloBugHelper",
+    "description":"",
+    "version":"1.0",
+    
+    "content_scripts": [
+        {
+            "matches": ["http://trello.com/c/"],
+            "js": ["zyTrelloBugHelper.js"]
+        } 
+    ],
+
+    "permissions": [
+        "http://trello.com/c/"
+    ]
+}
